@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import { JSONSchema7 } from "json-schema";
 import Form from "@rjsf/mui";
 import validator from "@rjsf/validator-ajv8";
-import schema from "../types/User/schema.json";
+import schema from "@/types/User/schema.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
